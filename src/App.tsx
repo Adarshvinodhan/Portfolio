@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Home, User, Briefcase, GraduationCap, Award, ChevronUp, Sun, Moon, FileDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -115,7 +115,7 @@ function App() {
         <div className="space-y-6">
           <div className="flex items-start gap-4">
             <img 
-              src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=400&h=400&auto=format&fit=crop&q=80" 
+              src="/profile1.jpg" 
               alt="Adarsh V"
               className="w-24 h-24 rounded-full object-cover border-2 border-white dark:border-gray-800 shadow-lg"
             />
