@@ -32,7 +32,7 @@ function App() {
       title: 'Rentcaroo',
       tech: 'React, Node.js, Razorpay',
       link: 'https://rentcaroo.netlify.app',
-      image: 'https://images.unsplash.com/photo-1485291571150-772bcfc10da5?w=800&auto=format&fit=crop&q=80'
+      image: 'rentcaroo.png'
     },
     {
       title: 'CRM System',
@@ -44,8 +44,21 @@ function App() {
       title: 'MovieFinder',
       tech: 'React, Node.js, RESTful API',
       link: 'legpieze-findmovie.netlify.app',
-      image: 'https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=800&auto=format&fit=crop&q=80'
+      image: 'movie-finder.png'
+    },
+    {
+      title: 'Threejs Landing-Page',
+      tech: 'React, 3js,TailwindCSS',
+      link: 'https://infoquest-kasc2k25.netlify.app/',
+      image: 'infoquest.png'
+    },
+    {
+      title: 'CMS-Portfolio',
+      tech: 'React,Nodejs,TailwindCSS',
+      link: 'https://dean-kasc.netlify.app/',
+      image: 'cms.png'
     }
+
   ];
 
   useEffect(() => {
