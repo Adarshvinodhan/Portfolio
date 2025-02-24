@@ -37,13 +37,13 @@ function App() {
     {
       title: 'CRM System',
       tech: 'Django, MySQL, TailwindCSS',
-      link: 'https://crm-system.netlify.app',
+      link: 'https://github.com/Adarshvinodhan/Django-CRM',
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80'
     },
     {
       title: 'MovieFinder',
       tech: 'React, Node.js, RESTful API',
-      link: 'https://movie-finder-app.netlify.app',
+      link: 'legpieze-findmovie.netlify.app',
       image: 'https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=800&auto=format&fit=crop&q=80'
     }
   ];
