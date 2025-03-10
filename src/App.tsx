@@ -36,6 +36,20 @@ function App() {
       image: 'rentcaroo.png'
     },
     {
+      title: 'CMS-Portfolio',
+      tech: 'React,Nodejs,TailwindCSS',
+      link: 'https://dean-kasc.netlify.app/',
+      repo: '',
+      image: 'cms.png'
+    },
+    {
+      title: 'Password Reset',
+      tech: 'React, Node.js, Razorpay',
+      link: 'https://passresetflow.netlify.app/',
+      repo: '',
+      image: 'passreset.png'
+    },
+    {
       title: 'CRM System',
       tech: 'Django, MySQL, TailwindCSS',
       link: 'https://github.com/Adarshvinodhan/Django-CRM',
@@ -56,14 +70,6 @@ function App() {
       repo: '',
       image: 'infoquest.png'
     },
-    {
-      title: 'CMS-Portfolio',
-      tech: 'React,Nodejs,TailwindCSS',
-      link: 'https://dean-kasc.netlify.app/',
-      repo: '',
-      image: 'cms.png'
-    }
-
   ];
 
   useEffect(() => {
