@@ -44,7 +44,7 @@ function App() {
     },
     {
       title: 'Password Reset',
-      tech: 'React, Node.js, Razorpay',
+      tech: 'React, Node.js, MUI',
       link: 'https://passresetflow.netlify.app/',
       repo: '',
       image: 'passreset.png'
