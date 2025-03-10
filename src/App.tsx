@@ -32,42 +32,42 @@ function App() {
       title: 'Rentcaroo',
       tech: 'React, Node.js, Razorpay',
       link: 'https://rentcaroo.netlify.app',
-      repo: '',
+      repo: 'https://github.com/Adarshvinodhan/rentcaroo-react',
       image: 'rentcaroo.png'
     },
     {
       title: 'CMS-Portfolio',
       tech: 'React,Nodejs,TailwindCSS',
       link: 'https://dean-kasc.netlify.app/',
-      repo: '',
+      repo: 'https://github.com/Adarshvinodhan/portfolio-dean',
       image: 'cms.png'
     },
     {
       title: 'Password Reset',
       tech: 'React, Node.js, MUI',
       link: 'https://passresetflow.netlify.app/',
-      repo: '',
+      repo: 'https://github.com/Adarshvinodhan/password-reset-nodejs',
       image: 'passreset.png'
     },
     {
       title: 'CRM System',
       tech: 'Django, MySQL, TailwindCSS',
       link: 'https://github.com/Adarshvinodhan/Django-CRM',
-      repo: '',
+      repo: 'https://github.com/Adarshvinodhan/Django-CRM',
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80'
     },
     {
       title: 'MovieFinder',
       tech: 'React, Node.js, RESTful API',
       link: 'legpieze-findmovie.netlify.app',
-      repo: '',
+      repo: 'https://github.com/Adarshvinodhan/React-moviefinder',
       image: 'movie-finder.png'
     },
     {
       title: 'Threejs Landing-Page',
       tech: 'React, 3js,TailwindCSS',
       link: 'https://infoquest-kasc2k25.netlify.app/',
-      repo: '',
+      repo: 'https://github.com/Adarshvinodhan/kasc-event',
       image: 'infoquest.png'
     },
   ];
@@ -90,12 +90,6 @@ function App() {
           transition={{ type: "spring", stiffness: 100, damping: 20 }}
           className="absolute inset-0"
         >
-          <a
-            href={projects[currentProjectIndex].link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block h-full group"
-          >
             <div className="relative h-full bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
               <div className="absolute inset-0">
                 <img
@@ -108,12 +102,22 @@ function App() {
               <div className="absolute bottom-0 left-0 right-0 p-4">
                 <h3 className="text-2xl font-bold text-white mb-1">{projects[currentProjectIndex].title}</h3>
                 <p className="text-base text-gray-200 mb-2">{projects[currentProjectIndex].tech}</p>
-                <span className="inline-block px-4 py-2 bg-blue-600 rounded-full text-sm font-medium text-white shadow-lg transition-all duration-300 transform group-hover:scale-105 group-hover:bg-blue-700">
+                <a className="inline-block px-4 py-2 bg-blue-600 rounded-full text-sm font-medium text-white shadow-lg transition-all duration-300 transform group-hover:scale-105 group-hover:bg-blue-700"
+                href={projects[currentProjectIndex].link}
+                target="_blank"
+                rel="noopener noreferrer"
+                >
                   View Live Project
-                </span>
+                </a>
+                <a className="inline-block px-4 py-2 ml-2 bg-red-600 rounded-full text-sm font-medium text-white shadow-lg transition-all duration-300 transform group-hover:scale-105 group-hover:bg-blue-700"
+                href={projects[currentProjectIndex].repo}
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                  Code
+                </a>
               </div>
             </div>
-          </a>
         </motion.div>
       </AnimatePresence>
       <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 flex gap-1.5">
@@ -225,18 +229,26 @@ function App() {
                     className="w-32 h-32 object-cover"
                   />
                   <div className="p-3 flex-1">
-                    <div className="flex justify-between items-start">
-                      <h3 className="text-lg font-medium dark:text-white">{project.title}</h3>
+                    <h3 className="text-lg font-medium dark:text-white">{project.title}</h3>
+                    <p className="text-base text-gray-400 mt-1">{project.tech}</p>
+                    <div className="mt-2">
                       <a
                         href={project.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-blue-400 text-sm hover:underline"
+                        className="text-blue-400 text-sm hover:underline block"
                       >
-                        View Project
+                        Live
+                      </a>
+                      <a
+                        href={project.repo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-400 text-sm hover:underline block"
+                      >
+                        Repo
                       </a>
                     </div>
-                    <p className="text-base text-gray-400 mt-1">{project.tech}</p>
                   </div>
                 </div>
               </div>
@@ -245,6 +257,7 @@ function App() {
         </div>
       )
     },
+    
     education: {
       icon: GraduationCap,
       content: (
