@@ -102,14 +102,14 @@ function App() {
               <div className="absolute bottom-0 left-0 right-0 p-4">
                 <h3 className="text-2xl font-bold text-white mb-1">{projects[currentProjectIndex].title}</h3>
                 <p className="text-base text-gray-200 mb-2">{projects[currentProjectIndex].tech}</p>
-                <a className="inline-block px-4 py-2 bg-blue-600 rounded-full text-sm font-medium text-white shadow-lg transition-all duration-300 transform group-hover:scale-105 group-hover:bg-blue-700"
+                <a className="inline-block px-4 py-2 bg-red-600 rounded-full text-sm font-medium text-white shadow-lg transition-all duration-300 transform group-hover:scale-105 group-hover:bg-blue-700"
                 href={projects[currentProjectIndex].link}
                 target="_blank"
                 rel="noopener noreferrer"
                 >
                   View Live Project
                 </a>
-                <a className="inline-block px-4 py-2 ml-2 bg-red-600 rounded-full text-sm font-medium text-white shadow-lg transition-all duration-300 transform group-hover:scale-105 group-hover:bg-blue-700"
+                <a className="inline-block px-4 py-2 ml-2 bg-blue-600 rounded-full text-sm font-medium text-white shadow-lg transition-all duration-300 transform group-hover:scale-105 group-hover:bg-blue-700"
                 href={projects[currentProjectIndex].repo}
                 target="_blank"
                 rel="noopener noreferrer"
