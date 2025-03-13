@@ -107,7 +107,7 @@ function App() {
                 target="_blank"
                 rel="noopener noreferrer"
                 >
-                  View Live Project
+                  Live
                 </a>
                 <a className="inline-block px-4 py-2 ml-2 bg-blue-600 rounded-full text-sm font-medium text-white shadow-lg transition-all duration-300 transform group-hover:scale-105 group-hover:bg-blue-700"
                 href={projects[currentProjectIndex].repo}
