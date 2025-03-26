@@ -57,13 +57,6 @@ function App() {
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80'
     },
     {
-      title: 'MovieFinder',
-      tech: 'React, Node.js, RESTful API',
-      link: 'legpieze-findmovie.netlify.app',
-      repo: 'https://github.com/Adarshvinodhan/React-moviefinder',
-      image: 'movie-finder.png'
-    },
-    {
       title: 'Threejs Landing-Page',
       tech: 'React, 3js,TailwindCSS',
       link: 'https://infoquest-kasc2k25.netlify.app/',
