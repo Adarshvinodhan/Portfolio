@@ -30,21 +30,21 @@ function App() {
   const projects = [
     {
       title: 'Rentcaroo',
-      tech: 'React, Node.js, Razorpay',
+      tech: 'React, Node.js, MongoDB, Razorpay',
       link: 'https://rentcaroo.netlify.app',
       repo: 'https://github.com/Adarshvinodhan/rentcaroo-react',
       image: 'rentcaroo.png'
     },
     {
       title: 'CMS-Portfolio',
-      tech: 'React,Nodejs,TailwindCSS',
+      tech: 'React,Nodejs,TailwindCSS,MongoDB',
       link: 'https://dean-kasc.netlify.app/',
       repo: 'https://github.com/Adarshvinodhan/portfolio-dean',
       image: 'cms.png'
     },
     {
       title: 'Rapid-Rentals',
-      tech: 'React, Node.js, MUI',
+      tech: 'React, Node.js, MUI,MongoDB',
       link: 'https://rapdid-rentals.netlify.app/',
       repo: 'https://github.com/Adarshvinodhan/rapid-rentals-client',
       image: 'rapidrentals.png'
