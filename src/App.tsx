@@ -43,11 +43,11 @@ function App() {
       image: 'cms.png'
     },
     {
-      title: 'Password Reset',
+      title: 'Rapid-Rentals',
       tech: 'React, Node.js, MUI',
-      link: 'https://passresetflow.netlify.app/',
-      repo: 'https://github.com/Adarshvinodhan/password-reset-nodejs',
-      image: 'passreset.png'
+      link: 'https://rapdid-rentals.netlify.app/',
+      repo: 'https://github.com/Adarshvinodhan/rapid-rentals-client',
+      image: 'rapidrentals.png'
     },
     {
       title: 'CRM System',
