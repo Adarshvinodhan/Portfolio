@@ -50,11 +50,11 @@ function App() {
       image: 'rapidrentals.png'
     },
     {
-      title: 'CRM System',
-      tech: 'Django, MySQL, TailwindCSS',
-      link: 'https://github.com/Adarshvinodhan/Django-CRM',
-      repo: 'https://github.com/Adarshvinodhan/Django-CRM',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80'
+      title: 'Social Media Feed',
+      tech: 'Express, MUI, MongoDB, TailwindCSS',
+      link: 'https://socialmediafeed-mern.netlify.app/',
+      repo: 'https://github.com/Adarshvinodhan/social-feed-react',
+      image: 'https://i.pinimg.com/736x/56/ae/76/56ae76f7bc1b3e0edc962cea1af7035f.jpg'
     },
     {
       title: 'Threejs Landing-Page',
